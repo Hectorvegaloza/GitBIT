@@ -68,8 +68,8 @@ let num1, num2;
 num1 = Number(prompt("Digite el numero 1"));
 num2 = Number(prompt("Digite el numero 2"));
 
-if(num1 === 0 || num2 ===0) {
-  document.write(`Algunos de los numeros es Cero`);
+if(num1 === 0 || num2 ===0 || num1==num2) {
+  document.write(`ERROR!!! Algunos de los numeros es Cero o son iguales compa`);
 }else{
 if(num1 > num2) {
   document.write(`El mayor es ${num1} y el menor es ${num2}`);
@@ -77,5 +77,7 @@ if(num1 > num2) {
   document.write(`El mayor es ${num2}  y el menor es ${num1}`);
 }
 }
+
+
 
 
