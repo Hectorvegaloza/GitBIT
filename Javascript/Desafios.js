@@ -96,7 +96,7 @@ let num1, num2;
 
 num1 = Number(prompt("Digite el numero 1"));
 num2 = Number(prompt("Digite el numero 2"));
-if(isNaN(num1)&&isNaN(num2)){
+if(isNaN(num1) || isNaN(num2)){
   document.write("Paisano, el valor ingresado no es un número");
 }else{
 if(num1 === 0 || num2 ===0 || num1==num2 || num2 <0|| num1 <0) {
