@@ -74,24 +74,30 @@ if (isNaN(num1) && isNaN(num2)){
 
 /*  let num1;
 
-num1 = Number(prompt("Digite un número:"));
+num1 = prompt("Digite un número:");
 
 
+if(num1 === ''){
+  document.write("No ingreso ningun valor");
+}
+else{
+num1=Number(num1);
 if(isNaN(num1)){
   document.write("Paisano, el valor ingresado no es un número");
 }else{
 if(num1 === 0 ) {
   document.write(`Usted ingresó el numero Cero, ${num1}`);
-} else if(num1>1) {
+} else if(num1=1) {
   document.write(`Usted ingresó un numero positivo, ${num1}`);
 } else if (num1<0) {
   document.write(`Usted ingresó un numero negativo, ${num1}`);
 }
 }
+}
  */
 
 //hacer un programa que reciba del usuario 2 numeros y muestre cual es el nunero mayor y cual es menor
-
+/* 
 let num1, num2;
 
 num1 = Number(prompt("Digite el numero 1"));
@@ -109,7 +115,24 @@ if(num1 > num2) {
 }
 }
 }
+  */
  
- 
+/* "use strict"
+
+const entrada = prompt("Enter your name");
+
+console.log(entrada);
 
 
+switch(entrada){
+  case "":
+    document.write("Hello there! youngling");
+  break;
+  case null:
+    document.write("erda");
+  break;
+  default:
+    document.write("Hello there!" + entrada + ", Welcome to the jedy academy");
+  break;
+}
+ */
